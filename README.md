@@ -117,6 +117,6 @@ Tạo nhiều module
 php artisan module:make Blog User Auth
 ```
 
-Quy ước đặt tên -> StudlyCase
+Quy ước đặt tên -> Viết hoa mỗi chữu cái đầu
 
 [Đọc thêm](https://nwidart.com/laravel-modules/v6/basic-usage/creating-a-module)
