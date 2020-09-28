@@ -117,6 +117,6 @@ Tạo nhiều module
 php artisan module:make Blog User Auth
 ```
 
-Quy ước đặt tên -> Viết hoa mỗi chữu cái đầu
+Quy ước đặt tên -> Viết hoa chữ cái đầu tiên của mỗi từ khoá (vd: FirstName)
 
 [Đọc thêm](https://nwidart.com/laravel-modules/v6/basic-usage/creating-a-module)
