@@ -75,7 +75,7 @@ Chứa **Composer** dependencies:
 
 ### The Broadcasting Directory (Thư mục phát sóng)
 
-Chứa bradcast channel classes (các lớp kênh quản bá) cho ứng dụng (Đọc thêm [event broadcasting](https://laravel.com/docs/8.x/broadcasting))
+Chứa broadcast channel classes (các lớp kênh quản bá) cho ứng dụng (Đọc thêm [event broadcasting](https://laravel.com/docs/8.x/broadcasting))
 
 ### The Console Directory (Thư mục bảng điều khiển)
 
@@ -98,3 +98,25 @@ Quản lý logic xây dựng email  -> phương thức **Mail::send**
 ### The Providers Directory (Thư mục nhà cung cấp)
 
 Chứa tất cả [service proviers](https://laravel.com/docs/8.x/providers). Có thể thêm nếu cần
+
+
+## Hướng dẫn tạo module
+
+```bash
+php artisan module:make <module-name>
+```
+
+vd
+```bash
+php artisan module:make Blog
+```
+
+Tạo nhiều module
+
+```bash
+php artisan module:make Blog User Auth
+```
+
+Quy ước đặt tên -> StudlyCase
+
+[Đọc thêm](https://nwidart.com/laravel-modules/v6/basic-usage/creating-a-module)
